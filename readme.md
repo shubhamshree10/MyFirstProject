@@ -1,3 +1,3 @@
-#My First GitHub Project
+# My First GitHub Project
 
-Hujikl is my favourite text
+lorem ipsum dolor
