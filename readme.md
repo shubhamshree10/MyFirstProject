@@ -1,12 +1,12 @@
 # My First GitHub Project
 
-## ReadMes are PhUN
+## ReadMe
 
-### Meowth Header 3
+### Header 3
 
-#### Chautha Heading hai yeh
+#### 4X Heading
 
-##### Pandava Header
+##### Fifth Header
 
 ###### Even smaller Header
 
