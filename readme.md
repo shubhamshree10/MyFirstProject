@@ -1,15 +1,5 @@
 # My First GitHub Project
 
-## ReadMe
+This project's basic idea is to make a photograph gallery of my Copyrighted images with a feature to hover over & magnify the images
 
-### Header 3
-
-#### 4X Heading
-
-##### Fifth Header
-
-###### Even smaller Header
-
-####### Limits of Markdown
-
-lorem ipsum dolor
+And this repo is my stepwise progress with the fullstack course from Covalence.io
