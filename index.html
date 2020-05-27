@@ -22,7 +22,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML Resources</title>
+    <title>Shubham's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -31,8 +31,9 @@
     <header>
 
         <nav>
-            <p>
+            <p style="color: navy;">
                 <h1><img src="images/Code!.png" alt="Your logo in your navbar!" style="width: 30px;" />&nbsp; Hi there friend !&nbsp; Welcome to my website</h1>
+                <a href="https://www.google.com/">Click here to go to Google</a>
             </p>
         </nav>
     </header>
@@ -40,16 +41,30 @@
     <main>
 
         <article>
-
-            <h3>Article heading.</h3>
+            <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer">Click here to go to Amazon</a>
+            <h3 style="color: maroon;">Article heading.</h3>
             <h4>Not a heading I would say, just bold text</h4>
             <h5>Smaller than article text</h5>
-            <h6>It's really really tiny, bring a magnifying lens to read this</h6>
+            <h6>It's <span style="color:red;font-size: small;"> &nbsp;really really tiny, </span> bring a magnifying lens to read this</h6>
             <p>Article text.</p>
+            <p>It's easiest to think about "highlighting" text with a span. <span style="background-color:cyan;font-style: italic;">If you <b>wanted just</b> this text to be yellow, you could use a span to do that!</span></p>
         </article>
         <section>
-
-            <div class="container"></div>
+            <div><b>My list of photographs</b></div>
+            <ol>
+                <li>Bamboo forest in background with a leafy foreground</li>
+                <ul>
+                    <li>Green leaf</li>
+                    <li>Orange leaf</li>
+                </ul>
+                <li>Kachnar tree</li>
+                <ol>
+                    <li>1 leaf</li>
+                    <li>2 leaves</li>
+                    <li>many leaves</li>
+                </ol>
+            </ol>
+            <!--<div class="container"></div>-->
             <img src="images/IMG1.jpg" style="width: 500px;" />
             <img src="images/IMG2.jpg" style="width: 500px;" />
             <img src="images/IMG3.jpg" style="width: 500px;" />
@@ -57,7 +72,7 @@
         </section>
     </main>
     <footer>
-        © Copyright, Shubham Shree
+        © Copyright Shubham Shree Gmbh, 2020
     </footer>
     <script src="app.js"></script>
 </body>
