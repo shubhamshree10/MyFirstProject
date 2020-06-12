@@ -2,20 +2,6 @@
 <html lang="en">
 
 <head>
-
-    <!--link rel="prefetch" href="https://shubhamshree10.github.io/MyFirstProject/images/IMG1.jpg" />
-    <link rel="prefetch" href="https://shubhamshree10.github.io/MyFirstProject/images/IMG2.jpg" />
-    <link rel="prefetch" href="https://shubhamshree10.github.io/MyFirstProject/images/IMG3.jpg" /-->
-
-    <link rel="apple-touch-icon" sizes="57x57" href="images/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon-96x96.png">
@@ -57,7 +43,7 @@
                 </tr>
                 <tr>
                     <td>Friday</td>
-                    <td>5</td>
+                    <td>12</td>
                     <td>June</td>
                     <td>2020</td>
                 </tr>
@@ -67,7 +53,7 @@
 
     <main>
 
-        <article>
+        <article class="text-center">
             <br>
             <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer">Click here to go to Amazon</a>
             <hr>
@@ -77,27 +63,29 @@
             <h6>It's <span style="color:red;font-size: small;"> &nbsp;really really tiny, </span> bring a magnifying
                 lens to read this</h6>
             <hr>
-            <p>It's easiest to think about "highlighting" text with a span. <span
-                    style="background-color:cyan;font-style: italic;">If you <b>wanted just</b> this text to be yellow,
+            <p>It's easiest to think about "highlighting" text with a span. <span style="background-color: yellowgreen;
+                    font-style: italic;">If you <b>wanted just</b> this text to be yellow,
                     you could use a span to do that!</span></p>
         </article>
         <section>
             <form action="">
-                <input type="email" name="email" placeholder="email"> &nbsp; &nbsp;&nbsp;
+                <label for ="heading">Email</label>
+                <input type="email" name="email" placeholder="email" id="text"> &nbsp; &nbsp;&nbsp;
+                <label for ="heading">Phone</label>
                 <input type="tel" name="phone" placeholder="phone"> <br> <br>
                 <input type="number" name="zipCode" placeholder="ZipCode"> <br>
                 <hr>
 
-                <textarea name="message" id="" cols="30" rows="10"> Write something here</textarea><br>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write something here"> </textarea><br>
                 <hr>
 
                 <input type="checkbox" name="HTML"> I know HTML <br>
-                <input type="checkbox" name="CSS"> I know CSS <br> <br>
+                <input type="checkbox" name="CSS" > I know CSS <br> <br>
                 <hr>
-                <input type="radio" name="Job"> I have a job <br>
-                <input type="radio" name="Job"> I don't have a job <br>
+                <input type="radio" name="Job" > I have a job ₹ <br>
+                <input type="radio" name="Job"> I don't have a job 🙄<br>
                 <br>
-                <select name="states" id="">
+                <select name="states" id="rest">
                     <option value="1">Text for option 1</option>
                     <option value="2">Text for option 2</option>
 
@@ -112,22 +100,25 @@
             </form>
 
         </section>
-        <!--video
-            src="https://media.githubusercontent.com/media/shubhamshree10/MyFirstProject/master/videos/funnyAtharva.mp4"
-            height="200px" autoplay="autoplay" muted controlsList="nodownload" controls></video-->
-        <br>
-        <!--video src="https://media.githubusercontent.com/media/shubhamshree10/MyFirstProject/master/videos/Exotic Run.mp4" height="350px" controls controlsList="nodownload"></video>
-        <video  autoplay="autoplay" controls muted controlsList="nodownload"
-            
-                src="https://lh3.googleusercontent.com/X6X1PnX2-3Bie-s5y55QWlMzw5UV23PuqaSIGo6coBpNYmXeUP1ohP8ryJg2rOLMSmb5mqqNIQ-MRmfNHQE3kd3HNuRHW0dXIkRQQcZfDfxrUyeLV0NeSI5c2PIq_34XThq2Ds8cNKo=w2400"-->
+        <article class="text-right">
+            Hi! I'm Olaf, & I love warm hugs &lt;3
+        </article>
 
-        </video>
         <br>
         <audio src="videos/Kanha.mp3" controls controlsList="nodownload"></audio>
         <br>
         <hr>
-        <!--video src="https://media.githubusercontent.com/media/shubhamshree10/MyFirstProject/master/videos/Tut-torial.mp4" height="350px" controls controlsList="nodownload"></video-->
-        <section>
+        <section style="align-content: center;">
+            <hr>
+            <div style="text-align: center; font-size: large;">
+                <a href="https://www.youtube.com/watch?v=nTQPRN085TQ" target="_blank">Ultra Love in the Air!</a>
+            </div>
+            <hr size="15" width="50%" style="cursor: crosshair;" align="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xTxpqdIY5CM" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                margin-left: auto; margin-right: auto;></iframe>
+        </section>
+        <section class="text-blue">
             <div><b>My list of photographs</b></div>
             <ol>
                 <li>Bamboo forest in background with a leafy foreground</li>
@@ -142,29 +133,15 @@
                     <li>many leaves</li>
                 </ol>
             </ol>
-            <section style="align-content: center;">
-                <hr>
-                <div style="text-align: center; font-size: large;">
-                    <a href="https://www.youtube.com/watch?v=nTQPRN085TQ" target="_blank">Ultra Love in the Air!</a>
-                </div>
-                <hr size="15" width="50%" style="cursor: crosshair;" align="center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/xTxpqdIY5CM" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                    margin-left: auto;  
-                    margin-right: auto;></iframe>
-            </section>
+
             <hr>
-            <div><b>"A Meme a day, keeps stress away!"</b></div><br>
+            <div class="text-center text-blue"><b>"A Meme a day, keeps stress away!"</b></div><br>
             <a href="https://www.google.com/search?q=front+end+vs+back+end&rlz=1C1CHBF_enIN808IN808&oq=front+end+vs+&aqs=chrome.1.69i57j0l7.5540j0j7&sourceid=chrome&ie=UTF-8"
                 target="_blank" ref="noopener noreferrer">
                 <img
                     src="https://lh3.googleusercontent.com/Tklhq4Jh266rkMu-eZZ87NxxZlkvndR-xTZZxb1NfC1rgVew2MMYBFnj21V2gYZm0sD2mfNOEIsXU6gZgaOcCFdcoge1uube-P5F6r1_mBOq9DjAKP06fQN1YN_Y76NuUQc6JDjuIJY=w400" />
             </a>
-            <!--<div class="container"></div>
-            <img src="https://media.githubusercontent.com/media/shubhamshree10/MyFirstProject/master/images/IMG3.jpg" style="width: 500px;" />
-            <img src="https://media.githubusercontent.com/media/shubhamshree10/MyFirstProject/master/images/IMG2.jpg" style="width: 500px;" /> -->
-            <!--img src="https://media.githubusercontent.com/media/shubhamshree10/MyFirstProject/master/images/IMG1.jpg"
-                alt="bamboo forest" style="width: 800px;" /-->
+
             <br>
             <a href="https://lh3.googleusercontent.com/gtg6XKRtvwNME0vMknEdLEolI6OBWwvOU8pkPxN86thOxo_d2daOHNh6CtouKM_JMihdSL76ImaT9PBFUlQwwc-8gpA0JH0QC9LEvngeR8hYta4e5DxbTB2OR_64fNsP-4gNBdkm-90=w650-h342-p-k"
                 target="_blank" ref="noreferrer noopener">
@@ -175,7 +152,7 @@
         <hr>
     </main>
     <footer>
-        © Copyright Shubham Shree GmbH, 2020
+        &copy; Shubham Shree GmbH, &reg; 2020
     </footer>
     <script src="app.js"></script>
 </body>
