@@ -5,10 +5,7 @@
 body{
     background-color: #accede;
 }
-h3{
-    text-align: center;
-}
-.text-center{
+.text-center,h3{
     text-align: center;
 }
 .text-right{
@@ -16,6 +13,10 @@ h3{
 }
 .text-blue{
     color: purple;
+}
+span{
+    height: 30px;
+    display: inline-block;
 }
 #text{
     color: rgb(5, 88, 88);
