@@ -8,6 +8,7 @@ code{
 }
 body{
     background-color: #accede;
+    
 }
 .text-center,h3{
     text-align: center;
@@ -29,6 +30,14 @@ span{
     background-color: rgba(151, 255, 47, 0.89);
 }
 nav{
+    height: 80px;
     position: fixed;
-    background-color: #face;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    color: peachpuff;
+    background-color: rgba(49, 21, 126, 0.705);
+} 
+main{
+    padding-top: 100px;
 }
