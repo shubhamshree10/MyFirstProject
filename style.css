@@ -88,50 +88,8 @@ main{
   
 }
 
-.box {
-    display: inline-block;
-    width: 6em;
-    height: 6em;
-    background: red;
-    color: white;
-}
-
 .absolute {
     position: absolute;
 
 }
 
-#two {
-    top: 2em;
-    left: 2em;
-    background: blue;
-}
-
-.dashed-box {
-    position: relative;
-    z-index: 1;
-    border: dashed;
-    height: 8em;
-    margin-bottom: 1em;
-    margin-top: 2em;
-}
-
-.gold-box {
-    position: absolute;
-    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
-    background: gold;
-    width: 85%;
-    left: 0.25em;
-    top: 2.3em;
-}
-
-.green-box {
-    position: absolute;
-    z-index: 2; /* put .green-box above .dashed-box */
-    background: lightgreen;
-    width: 20%;
-    left: 65%;
-    top: -2em;
-    height: 7em;
-    opacity: 0.9;
-}
