@@ -42,7 +42,7 @@ nav{
     border-style: solid;
     border-color: rgb(187, 105, 153);
     border-width: 0.2em 0.2em 0.2em 0.2em;
-    height: 5em;
+    height: 4.5em;
     position: fixed;
     right: 0em;
     left: 0em;
@@ -51,13 +51,32 @@ nav{
     background-color: rgba(49, 21, 126, 0.705);
 } 
 
+table{
+    border:0.6em ;
+    color: rgb(24, 34, 22) ; 
+    font-weight: bold;
+    border-style: groove; 
+    border-color: crimson;
+}
+
+tr,th,td{
+    border: 0.1em;
+    border-style: solid;
+    border-color: rgb(134, 30, 111);
+}
+
 main{
-    padding-top: 7em;
+    padding-top: 6.7em;
 }
 
 .relative {
     position: relative;
-    top: 3em;
+    top: 0.25em;
+}
+
+.relative1 {
+    position: relative;
+    bottom: 0.45em;
 }
 
 .fixed {
