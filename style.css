@@ -30,10 +30,13 @@ span{
     background-color: rgba(151, 255, 47, 0.89);
 }
 nav{
+    border-style: solid;
+    border-color: rgb(142, 105, 187);
+    border-width: 0.2em 0.2em 0.2em 0.2em;
     height: 80px;
     position: fixed;
-    right: 0px;
-    left: 0px;
+    right: 0em;
+    left: 0em;
     margin: auto;
     color: peachpuff;
     background-color: rgba(49, 21, 126, 0.705);
