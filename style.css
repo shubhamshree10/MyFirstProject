@@ -53,6 +53,7 @@ nav{
 } 
 
 table{
+    margin-left: 30em;
     border:0.6em ;
     color: rgb(24, 34, 22) ; 
     font-weight: bold;
