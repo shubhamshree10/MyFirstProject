@@ -15,7 +15,6 @@ code{
 
 body{
     background-color: #accede;
-    margin-right: 8px;
 }
 
 .text-center,h3{
@@ -102,3 +101,12 @@ main{
     position: absolute;
 }
 
+.letter-spacing{
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.word-spacing{
+    word-spacing: 16px;
+    margin-left: 12px;
+}
