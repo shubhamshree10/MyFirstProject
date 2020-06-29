@@ -44,6 +44,8 @@ span{
 }
 
 nav{
+    word-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'Dancing Script', cursive;
     border-style: solid;
     border-color: rgb(187, 105, 153);
@@ -59,6 +61,7 @@ nav{
 } 
 
 table{
+    font-family: sans-serif;
     margin: auto;
     width: 240px;
     border:0.6em ;
