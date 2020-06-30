@@ -41,7 +41,7 @@ code{
 body{
     font-family:  cursive;
     background: url("images/Vertical Wallpaper3.png");
-    background-size: fill;
+    background-size: cover;
 }
 
 .text-center,h3{
