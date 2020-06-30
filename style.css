@@ -40,7 +40,8 @@ code{
 
 body{
     font-family:  cursive;
-    background-color: #accede;
+    background: url("images/Vertical Wallpaper3.png");
+    background-size: fill;
 }
 
 .text-center,h3{
