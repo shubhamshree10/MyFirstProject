@@ -30,6 +30,10 @@ border: 3px inset lightsalmon ;
 
 }
 
+.font{
+    font-family: 'Monofett', cursive;
+}
+
 code{
     background-color: lightgray;
     color: rgb(189, 51, 51);
