@@ -44,8 +44,10 @@ body{
     background-size: cover;
 }
 
-.text-center,h3{
+.text-center,h3,.boxes{
     text-align: center;
+    text-decoration: none;
+    color:  brown;
 }
 
 .text-right{
