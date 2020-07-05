@@ -48,6 +48,20 @@ body{
     background-size: cover;
 }
 
+.hover{
+    text-decoration: none;
+    color: rgb(97, 72, 8);
+    font-family: serif;
+    font-size: large;
+    font-weight: 700;
+    
+}
+.hover:hover{
+      background-color: lightcyan;
+      font-family: 'Nova Script', cursive;
+      font-weight: bold;
+}
+
 .text-center,h3{
     text-align: center;
 }
