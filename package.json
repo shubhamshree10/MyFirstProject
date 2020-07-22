@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shubhamshree10/MyFirstProject/issues"
   },
-  "homepage": "https://github.com/shubhamshree10/MyFirstProject#readme"
+  "homepage": "https://github.com/shubhamshree10/MyFirstProject#readme",
+  "dependencies": {
+    "firebase": "^7.16.1"
+  }
 }
