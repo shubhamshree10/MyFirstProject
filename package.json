@@ -18,7 +18,7 @@
   "homepage": "https://github.com/shubhamshree10/MyFirstProject#readme",
   "dependencies": {
     "bufferutil": "^4.0.1",
-    "firebase": "^7.16.1",
+    "firebase": "^10.0.0",
     "utf-8-validate": "^5.0.2"
   }
 }
